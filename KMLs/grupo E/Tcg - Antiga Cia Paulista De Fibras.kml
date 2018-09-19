@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501400FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501400FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm2209854">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Tcg - Antiga Cia Paulista De Fibras</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1709795</north>
+                    <south>-23.1729718</south>
+                    <east>-45.9293425</east>
+                    <west>-45.9326041</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9326041,-23.1709795,0
+-45.9325826,-23.1724491,0
+-45.9299326,-23.1729718,0
+-45.9293425,-23.1716206,0
+-45.9326041,-23.1709795,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

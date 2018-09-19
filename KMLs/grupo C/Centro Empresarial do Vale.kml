@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm106785">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Kodak São José dos Campos</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2402223</north>
+                    <south>-23.2514997</south>
+                    <east>-45.9185171</east>
+                    <west>-45.9254694</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9254694,-23.2433966,0
+-45.9250832,-23.2466891,0
+-45.9210277,-23.2514405,0
+-45.9203839,-23.2514997,0
+-45.9194613,-23.2476158,0
+-45.9185171,-23.2441655,0
+-45.9199548,-23.2427854,0
+-45.9187961,-23.2414841,0
+-45.9202552,-23.2402223,0
+-45.9213495,-23.241287,0
+-45.922122,-23.2406757,0
+-45.9224653,-23.2403997,0
+-45.9254694,-23.2433966,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm106793">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Posto PRF - BR-116 - KM156 - São José dos Campos - SP</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.248572</north>
+                    <south>-23.25012</south>
+                    <east>-45.934589</east>
+                    <west>-45.936456</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.935941,-23.25012,0
+-45.936456,-23.24942,0
+-45.935104,-23.248572,0
+-45.934589,-23.249301,0
+-45.935941,-23.25012,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

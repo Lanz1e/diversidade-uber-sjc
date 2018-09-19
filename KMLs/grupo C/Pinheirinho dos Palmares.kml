@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm30959262">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2456048</north>
+                    <south>-23.2549201</south>
+                    <east>-45.7977694</east>
+                    <west>-45.8061003</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8035898,-23.2522785,0
+-45.8051884,-23.2506177,0
+-45.8038205,-23.2493113,0
+-45.8061003,-23.2472659,0
+-45.805816,-23.2467927,0
+-45.8037534,-23.2485597,0
+-45.8035576,-23.2472609,0
+-45.803394,-23.2468962,0
+-45.8031151,-23.2465955,0
+-45.803217,-23.2460632,0
+-45.8026779,-23.2456048,0
+-45.7998508,-23.2456664,0
+-45.7986384,-23.2469036,0
+-45.7990542,-23.2473472,0
+-45.7990891,-23.2482221,0
+-45.7981396,-23.2487642,0
+-45.7979947,-23.2486459,0
+-45.7978391,-23.2488209,0
+-45.7979357,-23.2489466,0
+-45.7977694,-23.2492177,0
+-45.7986009,-23.2500704,0
+-45.7985151,-23.2503957,0
+-45.7987297,-23.2511746,0
+-45.8026457,-23.2549201,0
+-45.8035898,-23.2522785,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

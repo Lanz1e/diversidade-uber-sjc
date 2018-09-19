@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm116857">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Clube de Campo Santa Rita</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1867403</north>
+                    <south>-23.1937668</south>
+                    <east>-45.9211993</east>
+                    <west>-45.9301203</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9288597,-23.1897778,0
+-45.9301203,-23.1905668,0
+-45.9297395,-23.1923567,0
+-45.9293963,-23.1935698,0
+-45.92923,-23.1937668,0
+-45.9274436,-23.1918587,0
+-45.9262848,-23.1915185,0
+-45.9256196,-23.1908184,0
+-45.9217787,-23.1910303,0
+-45.9211993,-23.1894623,0
+-45.9229375,-23.1867403,0
+-45.9233452,-23.1873715,0
+-45.9253192,-23.1882985,0
+-45.9266926,-23.1888903,0
+-45.9273524,-23.1893094,0
+-45.9288597,-23.1897778,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

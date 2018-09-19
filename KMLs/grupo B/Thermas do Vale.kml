@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm128992">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Thermas do Vale</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1986385</north>
+                    <south>-23.2053834</south>
+                    <east>-45.9139574</east>
+                    <west>-45.9179377</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9176481,-23.2051369,0
+-45.9175515,-23.2046636,0
+-45.9178519,-23.2043185,0
+-45.9179377,-23.2036874,0
+-45.917573,-23.2031845,0
+-45.9171009,-23.2022674,0
+-45.9168434,-23.2016166,0
+-45.91694,-23.2006304,0
+-45.9174442,-23.1998908,0
+-45.9173477,-23.1995358,0
+-45.9168112,-23.19924,0
+-45.9160066,-23.1988653,0
+-45.9154379,-23.1986385,0
+-45.9150732,-23.1988258,0
+-45.9146655,-23.1989737,0
+-45.9143436,-23.1989343,0
+-45.9141934,-23.1995753,0
+-45.9139574,-23.2000388,0
+-45.9147513,-23.2010052,0
+-45.9154057,-23.2018236,0
+-45.9157598,-23.203007,0
+-45.9161782,-23.2053834,0
+-45.9176481,-23.2051369,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

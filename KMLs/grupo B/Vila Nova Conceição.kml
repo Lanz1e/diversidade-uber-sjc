@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm11471115">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2077846</north>
+                    <south>-23.2139769</south>
+                    <east>-45.883761</east>
+                    <west>-45.891003</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8865076,-23.2077846,0
+-45.8859282,-23.2089974,0
+-45.885778,-23.2092045,0
+-45.8857029,-23.2093623,0
+-45.884673,-23.2088495,0
+-45.8838469,-23.2100624,0
+-45.883761,-23.2104272,0
+-45.8849948,-23.2107723,0
+-45.8860785,-23.2115316,0
+-45.8862608,-23.2114921,0
+-45.8873445,-23.2122514,0
+-45.8878809,-23.2126557,0
+-45.8883852,-23.2131783,0
+-45.8892435,-23.2139769,0
+-45.8906919,-23.2126557,0
+-45.8908957,-23.212281,0
+-45.891003,-23.2120246,0
+-45.8907026,-23.2115414,0
+-45.8900374,-23.210792,0
+-45.8893507,-23.2101215,0
+-45.8886963,-23.2095102,0
+-45.8878702,-23.2087312,0
+-45.8873123,-23.2082677,0
+-45.8868187,-23.2079916,0
+-45.8865076,-23.2077846,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

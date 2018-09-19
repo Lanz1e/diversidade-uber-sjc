@@ -1,0 +1,5 @@
+# coding=utf-8
+# INSIRA AQUI OS OBJETOS DOS BAIRROS QUE VOCÊ DESEJA CAPTURAR OS TEMPOS.
+Neighborhoods = [	
+    
+]

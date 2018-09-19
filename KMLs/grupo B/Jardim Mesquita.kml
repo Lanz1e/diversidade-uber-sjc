@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm21685432">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Mesquita Village</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.274914</north>
+                    <south>-23.2780579</south>
+                    <east>-45.8565313</east>
+                    <west>-45.8615685</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8609623,-23.2768063,0
+-45.8610052,-23.2769738,0
+-45.8607262,-23.2770428,0
+-45.8607692,-23.277235,0
+-45.8600128,-23.2774518,0
+-45.8599538,-23.2772793,0
+-45.8595675,-23.2773828,0
+-45.8594602,-23.2771266,0
+-45.8588111,-23.277437,0
+-45.8589292,-23.2776046,0
+-45.8584571,-23.2778411,0
+-45.8583283,-23.2776538,0
+-45.8577329,-23.2780579,0
+-45.85747,-23.2776686,0
+-45.8574432,-23.2772695,0
+-45.8576095,-23.2771019,0
+-45.8574486,-23.2768802,0
+-45.8571482,-23.277097,0
+-45.8565313,-23.2761459,0
+-45.8568424,-23.2760178,0
+-45.8571482,-23.2758749,0
+-45.8573735,-23.2760523,0
+-45.8578992,-23.2761312,0
+-45.8578402,-23.2750766,0
+-45.8580279,-23.274914,0
+-45.8590043,-23.2753575,0
+-45.8589238,-23.2757271,0
+-45.8615685,-23.2766338,0
+-45.8615685,-23.2766929,0
+-45.8611393,-23.2765845,0
+-45.8606136,-23.2767225,0
+-45.8606565,-23.27689,0
+-45.8609623,-23.2768063,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

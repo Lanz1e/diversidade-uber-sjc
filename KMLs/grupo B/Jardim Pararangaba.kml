@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm5718412">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Jardim Pararangaba</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1692929</north>
+                    <south>-23.1765225</south>
+                    <east>-45.806932</east>
+                    <west>-45.812559</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.812559,-23.172794,0
+-45.81198,-23.17163,0
+-45.811572,-23.170644,0
+-45.810392,-23.169697,0
+-45.8095713,-23.1692929,0
+-45.8091957,-23.1700128,0
+-45.8094211,-23.1701657,0
+-45.8090456,-23.1709153,0
+-45.8090026,-23.1715466,0
+-45.8082194,-23.1730014,0
+-45.8078118,-23.1728338,0
+-45.8072968,-23.1736944,0
+-45.806932,-23.1742417,0
+-45.8116579,-23.1765225,0
+-45.8118722,-23.1764831,0
+-45.812087,-23.1755951,0
+-45.812559,-23.172794,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

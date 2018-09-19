@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>50143CFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>50143CFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm105141">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>General Motors</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1536582</north>
+                    <south>-23.1746584</south>
+                    <east>-45.8098984</east>
+                    <west>-45.8341562</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8341562,-23.1633943,0
+-45.8314848,-23.1658898,0
+-45.8311736,-23.1666592,0
+-45.8309591,-23.168336,0
+-45.8309912,-23.1692139,0
+-45.8312541,-23.1715022,0
+-45.8314955,-23.1730261,0
+-45.8318656,-23.1744908,0
+-45.8317423,-23.1746289,0
+-45.8315706,-23.1746584,0
+-45.8277512,-23.1729916,0
+-45.8098984,-23.1637593,0
+-45.8098984,-23.1602871,0
+-45.8138037,-23.1536582,0
+-45.8341562,-23.1633943,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

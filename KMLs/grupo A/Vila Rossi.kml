@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm22325737">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1641785</north>
+                    <south>-23.1706342</south>
+                    <east>-45.8911693</east>
+                    <west>-45.9007823</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9006751,-23.1642772,0
+-45.9004712,-23.1641785,0
+-45.8998919,-23.1641934,0
+-45.8988404,-23.1641958,0
+-45.8968878,-23.1643931,0
+-45.8943129,-23.1648912,0
+-45.8940232,-23.1650145,0
+-45.89221,-23.1642919,0
+-45.8921242,-23.1645903,0
+-45.8921081,-23.1647531,0
+-45.8923575,-23.1650354,0
+-45.8926284,-23.1653782,0
+-45.8927599,-23.1656149,0
+-45.8927304,-23.1658911,0
+-45.8912927,-23.1694679,0
+-45.8911693,-23.169823,0
+-45.8941733,-23.1706342,0
+-45.8949673,-23.1703729,0
+-45.8947313,-23.1689624,0
+-45.8950961,-23.1674928,0
+-45.8955681,-23.1669897,0
+-45.8967376,-23.1661907,0
+-45.8990121,-23.165086,0
+-45.9007823,-23.164435,0
+-45.9006751,-23.1642772,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

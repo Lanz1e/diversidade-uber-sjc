@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm15191028">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2346572</north>
+                    <south>-23.2395075</south>
+                    <east>-45.8484202</east>
+                    <west>-45.8524113</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8497882,-23.2382099,0
+-45.8484202,-23.2395075,0
+-45.848549,-23.2390294,0
+-45.8488011,-23.2379746,0
+-45.8488816,-23.2374619,0
+-45.8489835,-23.2370232,0
+-45.8490693,-23.2364613,0
+-45.849123,-23.2358402,0
+-45.8492356,-23.2353571,0
+-45.8494716,-23.2350663,0
+-45.8497989,-23.2347952,0
+-45.8500349,-23.2346917,0
+-45.8502495,-23.2346572,0
+-45.8524113,-23.2349924,0
+-45.8513546,-23.2363726,0
+-45.8503461,-23.2376985,0
+-45.8497882,-23.2382099,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm6149434">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1973356</north>
+                    <south>-23.2070142</south>
+                    <east>-45.9264511</east>
+                    <west>-45.9368553</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9368553,-23.2054217,0
+-45.9366354,-23.2049583,0
+-45.9365067,-23.2043789,0
+-45.9365603,-23.2038834,0
+-45.9360721,-23.2037922,0
+-45.9353909,-23.2032129,0
+-45.9339344,-23.2023476,0
+-45.9333256,-23.2018767,0
+-45.9328106,-23.2012505,0
+-45.9323895,-23.2005233,0
+-45.9324217,-23.1989603,0
+-45.9321266,-23.1988764,0
+-45.9317779,-23.1989381,0
+-45.9306273,-23.198477,0
+-45.9303269,-23.1981837,0
+-45.929482,-23.1973356,0
+-45.9280845,-23.1973726,0
+-45.9272933,-23.1983119,0
+-45.9270197,-23.1981393,0
+-45.9264511,-23.1994928,0
+-45.9293693,-23.1999661,0
+-45.9294176,-23.1999612,0
+-45.9294417,-23.1999735,0
+-45.9302973,-23.2024141,0
+-45.9321534,-23.2044504,0
+-45.9324914,-23.2048153,0
+-45.9329125,-23.2052935,0
+-45.9331566,-23.2056239,0
+-45.9342268,-23.2070142,0
+-45.9368553,-23.2054217,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

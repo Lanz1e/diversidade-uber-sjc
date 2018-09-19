@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm8344613">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Neighborhood &amp;quot;Morumbi City&amp;quot;</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2438501</north>
+                    <south>-23.2604499</south>
+                    <east>-45.8971452</east>
+                    <west>-45.9104704</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8971452,-23.2498831,0
+-45.8975958,-23.2454964,0
+-45.9041404,-23.2438501,0
+-45.9075737,-23.2474581,0
+-45.9104704,-23.2581928,0
+-45.9001923,-23.2604499,0
+-45.899806,-23.2593262,0
+-45.8979607,-23.252249,0
+-45.8971452,-23.2498831,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

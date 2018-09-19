@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm30959281">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Verana São José dos Campos</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2277511</north>
+                    <south>-23.2339226</south>
+                    <east>-45.8457354</east>
+                    <west>-45.8509737</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8494236,-23.2277511,0
+-45.8508398,-23.2290523,0
+-45.8506628,-23.2298856,0
+-45.8506252,-23.2305018,0
+-45.8509737,-23.2316798,0
+-45.8503194,-23.2325475,0
+-45.8503034,-23.2327496,0
+-45.8493162,-23.2339226,0
+-45.8486618,-23.2339226,0
+-45.8462479,-23.2335383,0
+-45.8461513,-23.2324143,0
+-45.8462906,-23.232195,0
+-45.8468298,-23.2320348,0
+-45.8469746,-23.2317661,0
+-45.8469773,-23.231527,0
+-45.8468539,-23.23132,0
+-45.8463255,-23.2310218,0
+-45.8459339,-23.2307506,0
+-45.8458534,-23.230514,0
+-45.8458776,-23.2301837,0
+-45.845781,-23.2297943,0
+-45.8457354,-23.2296316,0
+-45.8461298,-23.2281354,0
+-45.8494236,-23.2277511,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

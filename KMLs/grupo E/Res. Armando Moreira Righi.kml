@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501400FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501400FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10766153">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1306518</north>
+                    <south>-23.1399949</south>
+                    <east>-45.7635766</east>
+                    <west>-45.7691341</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.7642794,-23.1309182,0
+-45.7638663,-23.1306518,0
+-45.7635766,-23.1321959,0
+-45.7646763,-23.1324968,0
+-45.7648373,-23.1324672,0
+-45.7642311,-23.134766,0
+-45.764274,-23.1351903,0
+-45.7646441,-23.1363298,0
+-45.7646549,-23.1367146,0
+-45.7641935,-23.1383326,0
+-45.7645959,-23.1385003,0
+-45.7646441,-23.1386779,0
+-45.7670742,-23.1398026,0
+-45.7670903,-23.1398914,0
+-45.7672995,-23.1399949,0
+-45.7691341,-23.1366652,0
+-45.7678199,-23.1352939,0
+-45.7669026,-23.1340655,0
+-45.76635,-23.1335278,0
+-45.7652449,-23.1320972,0
+-45.7650518,-23.1316927,0
+-45.7647192,-23.1312635,0
+-45.7645744,-23.1311945,0
+-45.7642794,-23.1309182,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

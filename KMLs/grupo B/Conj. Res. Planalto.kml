@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm2064465">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>rua antonio</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1813479</north>
+                    <south>-23.1845384</south>
+                    <east>-45.8618795</east>
+                    <west>-45.8651357</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8638966,-23.1813479,0
+-45.8641219,-23.1814613,0
+-45.8649909,-23.1823934,0
+-45.8651357,-23.1824131,0
+-45.8650446,-23.1828027,0
+-45.8648568,-23.1831084,0
+-45.8640092,-23.1838678,0
+-45.8632689,-23.1843609,0
+-45.8623731,-23.1845384,0
+-45.8618795,-23.1843165,0
+-45.8638966,-23.1813479,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

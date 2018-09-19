@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm8534242">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>New Hope Community</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1842746</north>
+                    <south>-23.1897778</south>
+                    <east>-45.8885623</east>
+                    <west>-45.8947957</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8940768,-23.1879829,0
+-45.8947957,-23.1883773,0
+-45.8944094,-23.1890282,0
+-45.8935512,-23.1885351,0
+-45.8932829,-23.1887521,0
+-45.8937336,-23.1892748,0
+-45.8930147,-23.1896693,0
+-45.8925855,-23.1893833,0
+-45.8921295,-23.1897778,0
+-45.8915877,-23.1894129,0
+-45.8914912,-23.1894523,0
+-45.8913732,-23.1895213,0
+-45.8910298,-23.1894326,0
+-45.8907403,-23.1895806,0
+-45.890488,-23.1896594,0
+-45.8903539,-23.1892353,0
+-45.8902895,-23.1890282,0
+-45.8900535,-23.1888113,0
+-45.8898282,-23.1886535,0
+-45.8895975,-23.1883724,0
+-45.8896995,-23.1882294,0
+-45.8891523,-23.1869819,0
+-45.8885623,-23.1854631,0
+-45.8890343,-23.1852214,0
+-45.8890557,-23.1842746,0
+-45.8897531,-23.1843634,0
+-45.8906651,-23.1853003,0
+-45.8909011,-23.1860696,0
+-45.8913088,-23.1870854,0
+-45.8923388,-23.1873517,0
+-45.8933043,-23.1870854,0
+-45.8942378,-23.1875194,0
+-45.8940768,-23.1879829,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

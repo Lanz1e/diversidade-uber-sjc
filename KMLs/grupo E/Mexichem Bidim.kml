@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501400FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501400FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm283400">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Mexichem Bidim Ltda</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1644794</north>
+                    <south>-23.1698259</south>
+                    <east>-45.8985293</east>
+                    <west>-45.9066189</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9062759,-23.1694109,0
+-45.9066189,-23.1673989,0
+-45.9051596,-23.1664917,0
+-45.9053527,-23.1661168,0
+-45.9034859,-23.1650516,0
+-45.9024559,-23.1645584,0
+-45.9018337,-23.1645386,0
+-45.9014474,-23.1644794,0
+-45.9008682,-23.1647752,0
+-45.8985293,-23.1655348,0
+-45.898819,-23.1680697,0
+-45.9002669,-23.1674779,0
+-45.9041729,-23.1697269,0
+-45.9056529,-23.1698259,0
+-45.9062759,-23.1694109,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

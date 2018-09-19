@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>50143CFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>50143CFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm17083995">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Altos da Quinta Reserva - Condominio</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2559946</north>
+                    <south>-23.2610166</south>
+                    <east>-45.8674693</east>
+                    <west>-45.8711117</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8702803,-23.2559946,0
+-45.8699316,-23.2565958,0
+-45.8690196,-23.2573006,0
+-45.8687407,-23.2580645,0
+-45.8675444,-23.2590699,0
+-45.8677375,-23.2591734,0
+-45.8678019,-23.2597944,0
+-45.8674693,-23.260238,0
+-45.8679146,-23.2604597,0
+-45.8688319,-23.2606618,0
+-45.8692986,-23.2610166,0
+-45.8702105,-23.2607801,0
+-45.8704948,-23.2599324,0
+-45.8703125,-23.259888,0
+-45.8702266,-23.2592523,0
+-45.8705646,-23.2588038,0
+-45.8706987,-23.258375,0
+-45.8711117,-23.2580423,0
+-45.8710527,-23.2572144,0
+-45.8707738,-23.2568324,0
+-45.8708006,-23.2566402,0
+-45.8709669,-23.2564628,0
+-45.8702803,-23.2559946,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

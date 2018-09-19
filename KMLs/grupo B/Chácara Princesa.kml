@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm22043175">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.125874</north>
+                    <south>-23.1273934</south>
+                    <east>-45.9524739</east>
+                    <west>-45.9546518</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9532034,-23.125874,0
+-45.9531578,-23.1258962,0
+-45.9531498,-23.125943,0
+-45.9531659,-23.1261675,0
+-45.9530801,-23.1262538,0
+-45.953064,-23.1264561,0
+-45.9530666,-23.1266115,0
+-45.9528011,-23.126683,0
+-45.9524739,-23.1268162,0
+-45.9526134,-23.1271986,0
+-45.9526643,-23.1272898,0
+-45.952777,-23.1273441,0
+-45.9529272,-23.1273737,0
+-45.9529915,-23.1273934,0
+-45.9534019,-23.1272824,0
+-45.9534904,-23.1272701,0
+-45.9536111,-23.1272726,0
+-45.9537882,-23.127238,0
+-45.9540483,-23.127206,0
+-45.9543273,-23.1271369,0
+-45.9544855,-23.1271098,0
+-45.954558,-23.1271172,0
+-45.9546518,-23.1271468,0
+-45.9546331,-23.1270654,0
+-45.9545901,-23.1269692,0
+-45.9545204,-23.1268853,0
+-45.9543139,-23.1267028,0
+-45.954043,-23.1264832,0
+-45.953697,-23.1261872,0
+-45.9535092,-23.1260639,0
+-45.9533376,-23.1259307,0
+-45.9532034,-23.125874,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

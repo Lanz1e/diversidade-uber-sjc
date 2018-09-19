@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm37758675">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1872679</north>
+                    <south>-23.1955518</south>
+                    <east>-45.876739</east>
+                    <west>-45.8841526</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8794534,-23.1872679,0
+-45.879035,-23.1882541,0
+-45.8788204,-23.1886486,0
+-45.87852,-23.1892502,0
+-45.8780587,-23.1898616,0
+-45.87749,-23.1906555,0
+-45.876739,-23.1913409,0
+-45.8774793,-23.1918833,0
+-45.8792174,-23.1928793,0
+-45.8813095,-23.1955025,0
+-45.8814275,-23.1955518,0
+-45.881567,-23.1955518,0
+-45.8816421,-23.195473,0
+-45.8816743,-23.195325,0
+-45.8817601,-23.1943783,0
+-45.8817816,-23.1942205,0
+-45.8819425,-23.1938852,0
+-45.8841526,-23.1935943,0
+-45.8837128,-23.1920904,0
+-45.8829617,-23.1908182,0
+-45.8819103,-23.1892502,0
+-45.8811915,-23.1883034,0
+-45.8804834,-23.1877018,0
+-45.8794534,-23.1872679,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm993123">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>RODOVIA PRES. DUTRA, PROXIMO AO POLO TECNOLOGICO</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1549382</north>
+                    <south>-23.1618752</south>
+                    <east>-45.7889852</east>
+                    <west>-45.7947331</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.7947331,-23.157281,0
+-45.7900339,-23.1549382,0
+-45.7889852,-23.1565831,0
+-45.790557,-23.1579247,0
+-45.7912624,-23.1582403,0
+-45.791493,-23.1586522,0
+-45.7917103,-23.1591996,0
+-45.7921475,-23.160482,0
+-45.7931828,-23.1612539,0
+-45.7943308,-23.1618752,0
+-45.794642,-23.1611847,0
+-45.794245,-23.1608987,0
+-45.7938051,-23.1604055,0
+-45.793435,-23.1599814,0
+-45.792869,-23.1589111,0
+-45.7941967,-23.1577052,0
+-45.7947331,-23.157281,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

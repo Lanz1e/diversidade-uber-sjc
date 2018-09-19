@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm993126">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Ericsson</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1425107</north>
+                    <south>-23.150462</south>
+                    <east>-45.7795948</east>
+                    <west>-45.788312</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.7841278,-23.1425107,0
+-45.788312,-23.1453322,0
+-45.7839991,-23.150462,0
+-45.7826257,-23.1496408,0
+-45.7823065,-23.1499935,0
+-45.7809976,-23.1492783,0
+-45.7805631,-23.1489725,0
+-45.7806409,-23.1487653,0
+-45.7797397,-23.1480945,0
+-45.7795948,-23.1479317,0
+-45.7832909,-23.1436156,0
+-45.7841278,-23.1425107,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm13214232">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Jd. Portugal</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2549744</north>
+                    <south>-23.264984</south>
+                    <east>-45.8786112</east>
+                    <west>-45.8866525</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8786112,-23.2597945,0
+-45.8798772,-23.2569064,0
+-45.8805531,-23.2567684,0
+-45.8820337,-23.2561573,0
+-45.8823663,-23.256177,0
+-45.8823555,-23.2549744,0
+-45.8827096,-23.2550237,0
+-45.8838468,-23.2551124,0
+-45.88463,-23.2551223,0
+-45.8847588,-23.2569655,0
+-45.8860784,-23.2568965,0
+-45.8862394,-23.2593115,0
+-45.8866525,-23.2648854,0
+-45.885601,-23.264846,0
+-45.8850431,-23.264984,0
+-45.8816689,-23.2609576,0
+-45.8815616,-23.2608984,0
+-45.8786112,-23.2597945,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

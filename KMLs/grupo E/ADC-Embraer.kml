@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501400FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501400FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm2148144">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>ADC-Embraer</name>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2655557</north>
+                    <south>-23.2722579</south>
+                    <east>-45.8335662</east>
+                    <west>-45.8394885</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                        <coordinates>-45.8385444,-23.269518,0
+    -45.8394885,-23.2701093,0
+    -45.8392096,-23.2713315,0
+    -45.8387375,-23.271568,0
+    -45.8383513,-23.2722579,0
+    -45.8372355,-23.2721002,0
+    -45.836227,-23.2702473,0
+    -45.8353472,-23.2687886,0
+    -45.8335662,-23.266088,0
+    -45.8341885,-23.2655557,0
+    -45.8358837,-23.2666005,0
+    -45.8368493,-23.2676453,0
+    -45.837729,-23.2687689,0
+    -45.8385444,-23.269518,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

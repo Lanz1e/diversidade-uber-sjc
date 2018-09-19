@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>50143CFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>50143CFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm5784381">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Espelho D´Água</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1050758</north>
+                    <south>-23.1155357</south>
+                    <east>-45.8505821</east>
+                    <west>-45.8627701</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8627701,-23.1113124,0
+-45.8613968,-23.1127333,0
+-45.8577919,-23.1126939,0
+-45.8528137,-23.113207,0
+-45.8527279,-23.1155357,0
+-45.8509254,-23.1150226,0
+-45.8505821,-23.1050758,0
+-45.8627701,-23.1113124,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

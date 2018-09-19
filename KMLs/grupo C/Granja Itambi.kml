@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm21796203">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Soc.Civil Granja Itambi</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2492326</north>
+                    <south>-23.2625593</south>
+                    <east>-45.8182937</east>
+                    <west>-45.8298325</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8249618,-23.2625593,0
+-45.8254337,-23.2614159,0
+-45.8298325,-23.2602924,0
+-45.8272201,-23.2582076,0
+-45.8261687,-23.2558172,0
+-45.824656,-23.2551569,0
+-45.8248758,-23.2521848,0
+-45.8245754,-23.2500212,0
+-45.8231592,-23.2502182,0
+-45.8228588,-23.2492326,0
+-45.8209276,-23.2495874,0
+-45.8212709,-23.2505337,0
+-45.8205843,-23.2508885,0
+-45.8208418,-23.2517562,0
+-45.8196831,-23.25286,0
+-45.8197689,-23.2540825,0
+-45.8200693,-23.2550286,0
+-45.8207452,-23.2570445,0
+-45.8186639,-23.2576309,0
+-45.8182937,-23.2592475,0
+-45.8198977,-23.2602332,0
+-45.8222366,-23.2617117,0
+-45.8249618,-23.2625593,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

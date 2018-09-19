@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10469402">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Bairro Perfeito</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.260243</north>
+                    <south>-23.2713412</south>
+                    <east>-45.9008145</east>
+                    <west>-45.9118866</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9008145,-23.2630225,0
+-45.9023809,-23.2687195,0
+-45.904591,-23.2682859,0
+-45.9050417,-23.2703162,0
+-45.9044408,-23.2709667,0
+-45.905106,-23.2713412,0
+-45.9062219,-23.2702078,0
+-45.9105778,-23.2656739,0
+-45.9118866,-23.264087,0
+-45.9110283,-23.260243,0
+-45.9008145,-23.2630225,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

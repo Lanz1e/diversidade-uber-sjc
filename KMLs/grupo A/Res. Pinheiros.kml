@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>6478FFF0</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>6478FFF0</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10706606">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Bairro Residencial Pinheiros</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2404983</north>
+                    <south>-23.2537866</south>
+                    <east>-45.9160924</east>
+                    <west>-45.9210491</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9207273,-23.2533726,0
+-45.9210491,-23.2537866,0
+-45.920105,-23.2536683,0
+-45.9192467,-23.2533134,0
+-45.9160924,-23.2477932,0
+-45.916822,-23.2422728,0
+-45.9170365,-23.2404983,0
+-45.9177661,-23.2408926,0
+-45.9199119,-23.2504548,0
+-45.9207273,-23.2533726,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

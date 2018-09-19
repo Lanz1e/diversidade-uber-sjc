@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10469821">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Estrela</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1800929</north>
+                    <south>-23.1853398</south>
+                    <east>-45.8464408</east>
+                    <west>-45.858264</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8522773,-23.1800929,0
+-45.8472562,-23.1804677,0
+-45.846591,-23.1815329,0
+-45.8464408,-23.1818485,0
+-45.8464408,-23.1821049,0
+-45.847857,-23.182815,0
+-45.8520198,-23.1848664,0
+-45.8524919,-23.1852412,0
+-45.8532643,-23.1853398,0
+-45.8546805,-23.1853003,0
+-45.8570409,-23.1840182,0
+-45.858264,-23.1834462,0
+-45.8552599,-23.1816907,0
+-45.8529425,-23.1803494,0
+-45.8522773,-23.1800929,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

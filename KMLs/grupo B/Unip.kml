@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm4257864">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>UNIP.</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.248986</north>
+                    <south>-23.2575569</south>
+                    <east>-45.9431076</east>
+                    <west>-45.9509181</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9480322,-23.2575569,0
+-45.9509181,-23.2571676,0
+-45.9505963,-23.2543485,0
+-45.9504461,-23.2529093,0
+-45.9500598,-23.2520419,0
+-45.9493947,-23.251411,0
+-45.9471631,-23.250445,0
+-45.9455537,-23.2493606,0
+-45.9447383,-23.248986,0
+-45.9452104,-23.2525545,0
+-45.9431076,-23.25459,0
+-45.9436762,-23.2548167,0
+-45.9477531,-23.2573795,0
+-45.9480322,-23.2575569,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

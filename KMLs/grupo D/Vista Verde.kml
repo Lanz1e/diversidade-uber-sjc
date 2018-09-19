@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>50143CFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>50143CFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm5728506">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Vista Verde</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.173031</north>
+                    <south>-23.1843141</south>
+                    <east>-45.813117</east>
+                    <west>-45.8394885</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8289742,-23.1769171,0
+-45.820498,-23.174964,0
+-45.817494,-23.174215,0
+-45.813117,-23.173031,0
+-45.8139539,-23.1777061,0
+-45.8162069,-23.1786924,0
+-45.8191037,-23.1800535,0
+-45.8199406,-23.1803691,0
+-45.8241677,-23.1825191,0
+-45.8265924,-23.183387,0
+-45.8295965,-23.1839196,0
+-45.8330083,-23.1841366,0
+-45.8368278,-23.1843141,0
+-45.83745,-23.1842549,0
+-45.837729,-23.1827953,0
+-45.838995,-23.1816315,0
+-45.8392954,-23.1809017,0
+-45.8394885,-23.1806452,0
+-45.8391881,-23.1806847,0
+-45.8388019,-23.1805466,0
+-45.8384049,-23.1800042,0
+-45.838051,-23.179343,0
+-45.8289742,-23.1769171,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

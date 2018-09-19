@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm37757577">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2439979</north>
+                    <south>-23.2544864</south>
+                    <east>-45.8353471</east>
+                    <west>-45.8563756</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8353471,-23.2443528,0
+-45.8355188,-23.2453189,0
+-45.836699,-23.2491437,0
+-45.8393383,-23.2544864,0
+-45.8563756,-23.2489269,0
+-45.8523845,-23.249262,0
+-45.8516979,-23.2492423,0
+-45.8513546,-23.2490649,0
+-45.8451747,-23.2455949,0
+-45.8447456,-23.2454569,0
+-45.8444023,-23.2454569,0
+-45.8439731,-23.2454964,0
+-45.8436298,-23.2457132,0
+-45.8444881,-23.244826,0
+-45.8448314,-23.2446091,0
+-45.8449387,-23.2443725,0
+-45.8448529,-23.2441754,0
+-45.8445525,-23.2440965,0
+-45.8436942,-23.2441754,0
+-45.8424282,-23.2442345,0
+-45.8407759,-23.2443331,0
+-45.8398747,-23.2443528,0
+-45.8378791,-23.2439979,0
+-45.8353471,-23.2443528,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

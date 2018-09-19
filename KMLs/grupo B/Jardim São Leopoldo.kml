@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm5935825">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Bairro São Leopoldo </name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2395027</north>
+                    <south>-23.2491535</south>
+                    <east>-45.8209384</east>
+                    <west>-45.8289313</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8257127,-23.243584,0
+-45.821448,-23.2395027,0
+-45.8211102,-23.2403606,0
+-45.8209384,-23.2410507,0
+-45.8226552,-23.2429827,0
+-45.8229663,-23.2440078,0
+-45.8241034,-23.2447078,0
+-45.825187,-23.2455358,0
+-45.8261097,-23.244688,0
+-45.8266461,-23.2452597,0
+-45.8256698,-23.2469159,0
+-45.8247686,-23.2477242,0
+-45.8253372,-23.2491338,0
+-45.8256161,-23.2491535,0
+-45.8259702,-23.249124,0
+-45.8289313,-23.2468567,0
+-45.8257127,-23.243584,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

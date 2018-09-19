@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>5014B4FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>5014B4FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm9084452">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2634464</north>
+                    <south>-23.2666596</south>
+                    <east>-45.8524704</east>
+                    <west>-45.8570033</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.856998,-23.2645897,0
+-45.8570033,-23.264846,0
+-45.8569926,-23.2649544,0
+-45.8568692,-23.2650727,0
+-45.8564562,-23.2655655,0
+-45.8561718,-23.2661618,0
+-45.85585,-23.2663491,0
+-45.8557159,-23.2665216,0
+-45.8555818,-23.2666596,0
+-45.8551419,-23.2664821,0
+-45.8546162,-23.2664033,0
+-45.8537686,-23.2662554,0
+-45.8528996,-23.266147,0
+-45.8524704,-23.2643729,0
+-45.8542299,-23.2636238,0
+-45.8544338,-23.2636829,0
+-45.8546376,-23.2636041,0
+-45.8550024,-23.2634464,0
+-45.8553672,-23.2634759,0
+-45.8561075,-23.2634661,0
+-45.8563972,-23.2635449,0
+-45.8567405,-23.2636041,0
+-45.8569443,-23.2638209,0
+-45.856998,-23.2645897,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

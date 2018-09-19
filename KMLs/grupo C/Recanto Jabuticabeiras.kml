@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm21869992">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name></name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2449245</north>
+                    <south>-23.2548609</south>
+                    <east>-45.8148766</east>
+                    <west>-45.8218234</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8209249,-23.2453928,0
+-45.8214104,-23.2464771,0
+-45.8216706,-23.2466398,0
+-45.8218234,-23.2471302,0
+-45.821177,-23.2474013,0
+-45.8216518,-23.2494492,0
+-45.8209276,-23.2495479,0
+-45.8212388,-23.2505238,0
+-45.8205846,-23.2508491,0
+-45.8208204,-23.2517363,0
+-45.819683,-23.2528796,0
+-45.8197689,-23.2541069,0
+-45.8200372,-23.2548609,0
+-45.815735,-23.2544373,0
+-45.8148766,-23.2531754,0
+-45.81522,-23.2499422,0
+-45.8164215,-23.2481679,0
+-45.8157161,-23.2474334,0
+-45.8161398,-23.2460828,0
+-45.8166149,-23.2459696,0
+-45.8172556,-23.2459473,0
+-45.8172478,-23.2456738,0
+-45.8170009,-23.2452203,0
+-45.817194,-23.2449245,0
+-45.8180202,-23.2452499,0
+-45.8188248,-23.2450331,0
+-45.8209249,-23.2453928,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

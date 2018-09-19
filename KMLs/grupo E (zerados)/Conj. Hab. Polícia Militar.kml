@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10004291">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>av quatro, 208</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2527269</north>
+                    <south>-23.2573351</south>
+                    <east>-45.8274776</east>
+                    <west>-45.8306721</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8274829,-23.2544026,0
+-45.8293283,-23.2573351,0
+-45.8293551,-23.2573056,0
+-45.8306721,-23.2565361,0
+-45.8306721,-23.2560445,0
+-45.8289421,-23.2537669,0
+-45.8282125,-23.2527269,0
+-45.8274776,-23.2531113,0
+-45.8274829,-23.2544026,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

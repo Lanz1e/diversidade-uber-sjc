@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm2664853">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Parque Novo Horizonte</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.189058</north>
+                    <south>-23.2002508</south>
+                    <east>-45.7810808</east>
+                    <west>-45.7891273</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.7868636,-23.1902857,0
+-45.7871425,-23.1902463,0
+-45.7874215,-23.1902364,0
+-45.7877111,-23.1902068,0
+-45.7891273,-23.1985892,0
+-45.7878184,-23.1984364,0
+-45.7855815,-23.1995114,0
+-45.7845247,-23.2002508,0
+-45.7815958,-23.1987274,0
+-45.7813758,-23.1989394,0
+-45.7810808,-23.1987371,0
+-45.7813598,-23.1982589,0
+-45.7817674,-23.197189,0
+-45.7815099,-23.1952561,0
+-45.7816816,-23.1948764,0
+-45.7819391,-23.1945264,0
+-45.782336,-23.1938656,0
+-45.7826257,-23.1928301,0
+-45.7817781,-23.1918588,0
+-45.7812256,-23.1911142,0
+-45.7818988,-23.1907221,0
+-45.7826499,-23.1904633,0
+-45.7831273,-23.1901946,0
+-45.7837201,-23.1895806,0
+-45.7836611,-23.1893588,0
+-45.7839346,-23.1890728,0
+-45.7843477,-23.189058,0
+-45.7850665,-23.1896003,0
+-45.7858497,-23.1904584,0
+-45.7865391,-23.1903524,0
+-45.7868636,-23.1902857,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

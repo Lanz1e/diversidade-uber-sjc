@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>50143CFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>50143CFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm104964">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Cassino dos Oficiais do CTA</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2004135</north>
+                    <south>-23.20492</south>
+                    <east>-45.8773237</east>
+                    <west>-45.8815402</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8798665,-23.2016067,0
+-45.8808321,-23.2025929,0
+-45.8815402,-23.2034015,0
+-45.881508,-23.2040424,0
+-45.8814758,-23.2043777,0
+-45.8811754,-23.2043974,0
+-45.8810145,-23.20492,0
+-45.8796519,-23.2041509,0
+-45.8790725,-23.2038058,0
+-45.8781391,-23.2032634,0
+-45.8773774,-23.2033028,0
+-45.8773237,-23.2019223,0
+-45.8777958,-23.2019124,0
+-45.8777314,-23.2011038,0
+-45.878461,-23.2004135,0
+-45.8798665,-23.2016067,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm10097229">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Vale dos Pinheiros</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.194615</north>
+                    <south>-23.1969127</south>
+                    <east>-45.9087781</east>
+                    <west>-45.9122836</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.9106904,-23.194684,0
+-45.9106368,-23.1949455,0
+-45.9105402,-23.195044,0
+-45.9098054,-23.1946446,0
+-45.9093547,-23.1946668,0
+-45.9087781,-23.1953325,0
+-45.9102452,-23.1961978,0
+-45.9115916,-23.1969127,0
+-45.9116587,-23.1967476,0
+-45.9119671,-23.1958896,0
+-45.9122836,-23.1950169,0
+-45.9121388,-23.1949799,0
+-45.9116454,-23.1948517,0
+-45.911479,-23.1948024,0
+-45.9114522,-23.1947284,0
+-45.9107442,-23.194615,0
+-45.9106904,-23.194684,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

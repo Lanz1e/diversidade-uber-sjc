@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>501478FF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>501478FF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm1226478">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>INPE</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2055952</north>
+                    <south>-23.212794</south>
+                    <east>-45.8571701</east>
+                    <west>-45.862384</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8612414,-23.2105901,0
+-45.8616972,-23.2100132,0
+-45.862384,-23.2093232,0
+-45.8615472,-23.2068582,0
+-45.8610961,-23.2055952,0
+-45.8603882,-23.2057731,0
+-45.8598302,-23.2063652,0
+-45.857642,-23.2089282,0
+-45.8571701,-23.210782,0
+-45.8573202,-23.212794,0
+-45.8595302,-23.2122022,0
+-45.8604849,-23.2111914,0
+-45.8606942,-23.2112852,0
+-45.8612681,-23.2107428,0
+-45.8612414,-23.2105901,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

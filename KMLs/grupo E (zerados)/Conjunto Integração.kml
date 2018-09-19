@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm1439156">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Conjunto Residencial Integração</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.1822356</north>
+                    <south>-23.1843979</south>
+                    <east>-45.8594254</east>
+                    <west>-45.8629578</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8629578,-23.1828323,0
+-45.8619037,-23.1843979,0
+-45.8594254,-23.1838555,0
+-45.8599323,-23.1829284,0
+-45.8602542,-23.1823934,0
+-45.8606351,-23.1825709,0
+-45.8607397,-23.1823959,0
+-45.8610159,-23.182497,0
+-45.861488,-23.1823046,0
+-45.8615282,-23.1822356,0
+-45.8619601,-23.1824033,0
+-45.8619708,-23.1823712,0
+-45.8620593,-23.1824033,0
+-45.8629578,-23.1828323,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

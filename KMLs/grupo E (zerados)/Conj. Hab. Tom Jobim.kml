@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <Style id="ourPolygonStyle">
+            <LineStyle>
+                <color>64FFFFFF</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>64FFFFFF</color>
+            </PolyStyle>
+        </Style>
+        <Placemark id="wm33244172">
+            <styleUrl>#ourPolygonStyle</styleUrl>
+            <name>Conjunto Habitacional Tom Jobim</name>
+            <description>
+            </description>
+            <Region>
+                <LatLonAltBox>
+                    <north>-23.2421989</north>
+                    <south>-23.2467285</south>
+                    <east>-45.8281805</east>
+                    <west>-45.8336412</west>
+                </LatLonAltBox>
+                <Lod>
+                    <minLodPixels>5</minLodPixels>
+                    <maxLodPixels>800</maxLodPixels>
+                </Lod>
+            </Region>
+            <MultiGeometry>
+                <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                    <coordinates>-45.8332337,-23.2447375,0
+-45.8336412,-23.2446782,0
+-45.8332926,-23.2441804,0
+-45.8331745,-23.2427904,0
+-45.8329922,-23.2427362,0
+-45.8329868,-23.2425143,0
+-45.8329761,-23.2421989,0
+-45.8313614,-23.2422063,0
+-45.8314043,-23.2426203,0
+-45.8316001,-23.2428471,0
+-45.8313775,-23.2430713,0
+-45.8308678,-23.2431995,0
+-45.830133,-23.2435643,0
+-45.829854,-23.24385,0
+-45.8297575,-23.2445501,0
+-45.8297682,-23.2449345,0
+-45.8293068,-23.245516,0
+-45.8281805,-23.2461174,0
+-45.8287813,-23.2467285,0
+-45.8298112,-23.2460584,0
+-45.8310556,-23.2455063,0
+-45.832708,-23.2449147,0
+-45.8332337,-23.2447375,0</coordinates>
+                </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>
